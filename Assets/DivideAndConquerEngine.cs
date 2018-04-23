@@ -33,7 +33,7 @@ public class DivideAndConquerEngine : MonoBehaviour {
             Min = Guess;
             Algorithm();
         }
-        else if (Input.GetKeyDown(KeyCode.UpArrow)){
+        else if (Input.GetKeyDown(KeyCode.DownArrow)){
             Max = Guess;
             Algorithm();
         }
